@@ -1,4 +1,12 @@
 const validateNameQuery = (nameQuery) => {
+  if (nameQuery === undefined || nameQuery === null) {
+    return {
+      isValid: false,
+      statusCode: 400,
+      message: "name query parameter is required",
+    };
+  }
+
   if (Array.isArray(nameQuery) || typeof nameQuery !== "string") {
     return {
       isValid: false,
