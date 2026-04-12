@@ -6,7 +6,7 @@ This project provides a GET endpoint at `/api/classify` that integrates with the
 
 Set your deployed base URL here before submission:
 
-`https://your-live-url.com`
+`https://gender-classifier-yhda.vercel.app`
 
 Local base URL:
 
