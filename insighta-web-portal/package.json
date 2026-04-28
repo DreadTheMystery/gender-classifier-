@@ -1,0 +1,14 @@
+{
+  "name": "insighta-web-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Insighta Labs web portal",
+  "scripts": {
+    "start": "serve . -l 5173",
+    "dev": "serve . -l 5173",
+    "check": "node --check app.js"
+  },
+  "dependencies": {
+    "serve": "^14.2.6"
+  }
+}

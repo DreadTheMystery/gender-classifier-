@@ -1,0 +1,20 @@
+{
+  "name": "insighta-cli",
+  "version": "1.0.0",
+  "description": "Insighta Labs CLI",
+  "bin": {
+    "insighta": "bin/insighta.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bin/insighta.js --help",
+    "check": "node --check bin/insighta.js && node --check src/http.js && node --check src/oauth.js"
+  },
+  "dependencies": {
+    "axios": "^1.15.0",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "open": "^10.1.2",
+    "ora": "^8.2.0"
+  }
+}

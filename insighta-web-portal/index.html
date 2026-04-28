@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insighta Web Portal</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <header class="topbar">
+        <h1>Insighta Labs+</h1>
+        <nav>
+            <a href="#/dashboard">Dashboard</a>
+            <a href="#/profiles">Profiles</a>
+            <a href="#/search">Search</a>
+            <a href="#/account">Account</a>
+            <a href="#/login">Login</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="config-row">
+            <label for="apiBaseInput">API Base URL</label>
+            <input id="apiBaseInput" type="text" placeholder="http://localhost:3000" />
+            <button id="saveBaseUrlBtn" type="button">Save</button>
+        </section>
+
+        <section id="app"></section>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
